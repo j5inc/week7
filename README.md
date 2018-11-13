@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: Approximately 6 hours.
+Time spent: Approximately 4 hours.
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
