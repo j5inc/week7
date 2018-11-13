@@ -62,12 +62,12 @@ Time spent: Approximately 4 hours.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [X] GIF Walkthrough: 
+  - [X] GIF Walkthrough:  ![](Attack5.gif) 
   - [X] Steps to recreate: To recreate, a user must make a post. In order to this, the account would need at least contributor status. This snippit of code must be pasted in the TEXT mode editor in WordPress: <a href="[caption code=">]</a><a title=" onmouseover=alert('Uh-Oh')  ">link</a>
   - [X] Affected source code:  
     - related to wp-includes/kses.php and wp-includes/shortcodes.php  
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
-
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/shortcodes.php)  
+    - [Link 2](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/kses.php)
 ## Assets
 
 26MB dummy file with embedded script for Attack #1.
