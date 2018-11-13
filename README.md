@@ -20,9 +20,9 @@ Time spent: Approximately 4 hours.
   - [X] Affected source code:
     [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/script-loader.php)
 
-2. Unauthenticated Stored Cross-Site Scripting  
+2. Unauthenticated Stored Cross-Site Scripting, CVE-2015-3440  
   - [X] Summary: 
-    - Vulnerability type: XSS, CVE-2015-3440
+    - Vulnerability type: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [X] GIF Walkthrough:  ![](Attack2.gif) 
@@ -57,6 +57,15 @@ Time spent: Approximately 4 hours.
 - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/embed.php)
 
+5. Authenticated Cross-Site Scripting (XSS) in post/page (text editor mode), CVE-2015-5622
+  - [X] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.3
+  - [X] GIF Walkthrough: 
+  - [X] Steps to recreate: To recreate, a user must make a post. In order to this, the account would need at least contributor status. This snippit of code must be pasted in the TEXT mode editor in WordPress: <a href="[caption code=">]</a><a title=" onmouseover=alert('Uh-Oh')  ">link</a>
+  - [X] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
