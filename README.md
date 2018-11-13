@@ -22,7 +22,7 @@ Time spent: Approximately 4 hours.
 
 2. Unauthenticated Stored Cross-Site Scripting  
   - [X] Summary: 
-    - Vulnerability type: XSS
+    - Vulnerability type: XSS, CVE-2015-3440
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [X] GIF Walkthrough:  ![](Attack2.gif) 
